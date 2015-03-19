@@ -5,8 +5,6 @@
  *
  * Niektore bledy zostaly celowo wyciszone, np. socket_read(),
  * docelowo powinny zostac obsluzone
- *
- * @author thejoyboy    thejoyboy ( at ) wp.pl
  */
 abstract class AbstractDaemonConnection
 {
@@ -87,8 +85,6 @@ abstract class AbstractDaemonConnection
  *
  * Niektore bledy zostaly celowo wyciszone, np. socket_accept(), 
  * docelowo powinny zostac obsluzone
- *
- * @author thejoyboy    thejoyboy ( at ) wp.pl
  */
 abstract class AbstractDaemon
 {
@@ -416,8 +412,6 @@ abstract class AbstractDaemon
  * 
  * Docelowo zaimplementowane zostana tutaj dodatkowe metody dla obslugi
  * polaczenia, np. autoryzacja uzytkownika 
- * 
- * @author thejoyboy    thejoyboy ( at ) wp.pl
  */
 class SimpleForkDaemonConnection extends AbstractDaemonConnection
 {
@@ -430,8 +424,6 @@ class SimpleForkDaemonConnection extends AbstractDaemonConnection
  * 
  * Domyslnie timeout (dla calej sesji) zastapiony zostal przez timeout bezczynnosci 
  * tj pomiedzy poszczegolnymi wiadomosciami wysylanymi przez klienta
- * 
- * @author thejoyboy    thejoyboy ( at ) wp.pl
  */
 class SimpleForkDaemon extends AbstractDaemon
 {
